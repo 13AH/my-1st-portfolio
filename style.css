@@ -84,6 +84,10 @@ nav a{
 }
 /* main section styles */
 /* about section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto
+}
 .about{
     border-radius: 10px;
     padding: 130px;
@@ -99,10 +103,25 @@ nav a{
 }
 .about-description{
     color:#757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+} 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#what-i-do{
+    color: var(--dark-03, #757575);
 text-align: center;
 font-family: Open Sans;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
-} 
+padding: 30px 150px;
+}
